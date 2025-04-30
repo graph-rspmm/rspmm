@@ -37,7 +37,7 @@ def get_extensions():
 
 setup(
     name=f"rspmm{cuda_suffix}",
-    version="0.2.3",
+    version="0.2.4",
     packages=find_packages(),
     install_requires=["torch"],
     ext_modules=get_extensions(),
